@@ -7,36 +7,272 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1054257253B5762005B1011 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19DBC9F253B4A63006DC200 /* MapView.swift */; };
+		C105428E253B71A1005B1011 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1054266253B7129005B1011 /* WidgetKit.framework */; };
+		C105428F253B71A1005B1011 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1054268253B7129005B1011 /* SwiftUI.framework */; };
+		C1054292253B71A1005B1011 /* MapWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1054291253B71A1005B1011 /* MapWidget.swift */; };
+		C1054295253B71A3005B1011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1054294253B71A3005B1011 /* Assets.xcassets */; };
+		C1054297253B71A3005B1011 /* MapWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C1054293253B71A1005B1011 /* MapWidget.intentdefinition */; };
+		C1054298253B71A3005B1011 /* MapWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C1054293253B71A1005B1011 /* MapWidget.intentdefinition */; };
+		C105429B253B71A3005B1011 /* MapWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C105428D253B71A1005B1011 /* MapWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C10542A3253B722D005B1011 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19DBC9F253B4A63006DC200 /* MapView.swift */; };
+		C10542A9253B81DC005B1011 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10542A8253B81DC005B1011 /* TabBarView.swift */; };
+		C141C3AA253A5BDC004E3B19 /* SiriShortcutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C141C3A9253A5BDC004E3B19 /* SiriShortcutsViewController.swift */; };
+		C141C3AD253A5C6A004E3B19 /* SiriButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C141C3AC253A5C6A004E3B19 /* SiriButtonView.swift */; };
+		C141C3B1253A5CBD004E3B19 /* SiriShortcutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C141C3B0253A5CBD004E3B19 /* SiriShortcutManager.swift */; };
+		C141C3BA253A5D6B004E3B19 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C141C3B9253A5D6B004E3B19 /* IntentHandler.swift */; };
+		C141C3C1253A5D6B004E3B19 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1962CC4253A310600BDAFBD /* IntentsUI.framework */; };
+		C141C3C4253A5D6B004E3B19 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C141C3C3253A5D6B004E3B19 /* IntentViewController.swift */; };
+		C141C3C7253A5D6B004E3B19 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C141C3C5253A5D6B004E3B19 /* MainInterface.storyboard */; };
+		C141C3CB253A5D6B004E3B19 /* ParkingRequestUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C141C3C0253A5D6B004E3B19 /* ParkingRequestUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C141C3CE253A5D6B004E3B19 /* ParkingRequest.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C141C3B7253A5D6B004E3B19 /* ParkingRequest.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C141C3D9253A5D9D004E3B19 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C141C3D8253A5D9D004E3B19 /* Intents.intentdefinition */; };
+		C141C3E0253A5E85004E3B19 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C141C3D8253A5D9D004E3B19 /* Intents.intentdefinition */; };
+		C1910F82253BA05C003C7063 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910F78253B9F7B003C7063 /* LocationDelegate.swift */; };
+		C1910F88253BA0AD003C7063 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910F87253BA0AD003C7063 /* Pin.swift */; };
+		C1910FAE253BA787003C7063 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910F78253B9F7B003C7063 /* LocationDelegate.swift */; };
+		C1910FB3253BA787003C7063 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910F78253B9F7B003C7063 /* LocationDelegate.swift */; };
+		C1910FB4253BA78A003C7063 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910F87253BA0AD003C7063 /* Pin.swift */; };
+		C1910FB9253BA78A003C7063 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910F87253BA0AD003C7063 /* Pin.swift */; };
+		C1910FC4253BAAA6003C7063 /* ParkingRequestIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910FC3253BAAA6003C7063 /* ParkingRequestIntentHandler.swift */; };
+		C1910FCF253BAE2A003C7063 /* MapRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910FC9253BADBB003C7063 /* MapRequest.swift */; };
+		C1910FD4253BAE2C003C7063 /* MapRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910FC9253BADBB003C7063 /* MapRequest.swift */; };
+		C1910FD9253BAE2C003C7063 /* MapRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910FC9253BADBB003C7063 /* MapRequest.swift */; };
+		C1910FEC253BC51A003C7063 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910FE6253BBB45003C7063 /* MapViewModel.swift */; };
+		C1910FF1253BC51C003C7063 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910FE6253BBB45003C7063 /* MapViewModel.swift */; };
+		C1910FF6253BC51E003C7063 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910FE6253BBB45003C7063 /* MapViewModel.swift */; };
+		C1911000253BCA69003C7063 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910FFF253BCA69003C7063 /* Agent.swift */; };
+		C191100B253BCAD8003C7063 /* RostelekomAutoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191100A253BCAD8003C7063 /* RostelekomAutoApi.swift */; };
+		C191101F253C0406003C7063 /* RostelekomAutoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191100A253BCAD8003C7063 /* RostelekomAutoApi.swift */; };
+		C1911024253C040D003C7063 /* RostelekomAutoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191100A253BCAD8003C7063 /* RostelekomAutoApi.swift */; };
+		C1911029253C041B003C7063 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910FFF253BCA69003C7063 /* Agent.swift */; };
+		C191102E253C041C003C7063 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910FFF253BCA69003C7063 /* Agent.swift */; };
+		C1911034253C14E5003C7063 /* IntentMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1911033253C14E5003C7063 /* IntentMap.swift */; };
+		C191103D253C15D1003C7063 /* IntentMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1911033253C14E5003C7063 /* IntentMap.swift */; };
+		C1911042253C15D3003C7063 /* IntentMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1911033253C14E5003C7063 /* IntentMap.swift */; };
 		C1962CA2253A289100BDAFBD /* RostelecomAutoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1962CA1253A289100BDAFBD /* RostelecomAutoApp.swift */; };
-		C1962CA4253A289100BDAFBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1962CA3253A289100BDAFBD /* ContentView.swift */; };
+		C1962CA4253A289100BDAFBD /* SiriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1962CA3253A289100BDAFBD /* SiriView.swift */; };
 		C1962CA6253A289200BDAFBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1962CA5253A289200BDAFBD /* Assets.xcassets */; };
 		C1962CA9253A289200BDAFBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1962CA8253A289200BDAFBD /* Preview Assets.xcassets */; };
+		C19DBC68253A6526006DC200 /* ParkingNearMeIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19DBC67253A6526006DC200 /* ParkingNearMeIntentHandler.swift */; };
+		C19DBC6D253A6544006DC200 /* ParkingNearHomeIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19DBC6C253A6544006DC200 /* ParkingNearHomeIntentHandler.swift */; };
+		C19DBC9B253B4A5B006DC200 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C141C3D8253A5D9D004E3B19 /* Intents.intentdefinition */; };
+		C19DBCA4253B544D006DC200 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19DBC9F253B4A63006DC200 /* MapView.swift */; };
+		C1B4743B253A479000A0A353 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1962CC4253A310600BDAFBD /* IntentsUI.framework */; };
+		C1B4743D253A479000A0A353 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B4743C253A479000A0A353 /* Intents.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C1054299253B71A3005B1011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1962C96253A289100BDAFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C105428C253B71A1005B1011;
+			remoteInfo = MapWidgetExtension;
+		};
+		C141C3C9253A5D6B004E3B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1962C96253A289100BDAFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C141C3BF253A5D6B004E3B19;
+			remoteInfo = ParkingRequestUI;
+		};
+		C141C3CC253A5D6B004E3B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1962C96253A289100BDAFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C141C3B6253A5D6B004E3B19;
+			remoteInfo = ParkingRequest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1962CD9253A310600BDAFBD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C141C3CB253A5D6B004E3B19 /* ParkingRequestUI.appex in Embed App Extensions */,
+				C105429B253B71A3005B1011 /* MapWidgetExtension.appex in Embed App Extensions */,
+				C141C3CE253A5D6B004E3B19 /* ParkingRequest.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C1054266253B7129005B1011 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		C1054268253B7129005B1011 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		C105428D253B71A1005B1011 /* MapWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MapWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1054291253B71A1005B1011 /* MapWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWidget.swift; sourceTree = "<group>"; };
+		C1054293253B71A1005B1011 /* MapWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MapWidget.intentdefinition; sourceTree = "<group>"; };
+		C1054294253B71A3005B1011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1054296253B71A3005B1011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C10542A8253B81DC005B1011 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		C141C3A9253A5BDC004E3B19 /* SiriShortcutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriShortcutsViewController.swift; sourceTree = "<group>"; };
+		C141C3AC253A5C6A004E3B19 /* SiriButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriButtonView.swift; sourceTree = "<group>"; };
+		C141C3B0253A5CBD004E3B19 /* SiriShortcutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriShortcutManager.swift; sourceTree = "<group>"; };
+		C141C3B7253A5D6B004E3B19 /* ParkingRequest.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ParkingRequest.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C141C3B9253A5D6B004E3B19 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		C141C3BB253A5D6B004E3B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C141C3C0253A5D6B004E3B19 /* ParkingRequestUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ParkingRequestUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C141C3C3253A5D6B004E3B19 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		C141C3C6253A5D6B004E3B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		C141C3C8253A5D6B004E3B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C141C3D8253A5D9D004E3B19 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		C1910F78253B9F7B003C7063 /* LocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
+		C1910F87253BA0AD003C7063 /* Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
+		C1910FC3253BAAA6003C7063 /* ParkingRequestIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingRequestIntentHandler.swift; sourceTree = "<group>"; };
+		C1910FC9253BADBB003C7063 /* MapRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRequest.swift; sourceTree = "<group>"; };
+		C1910FE6253BBB45003C7063 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		C1910FFF253BCA69003C7063 /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		C191100A253BCAD8003C7063 /* RostelekomAutoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RostelekomAutoApi.swift; sourceTree = "<group>"; };
+		C1911033253C14E5003C7063 /* IntentMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentMap.swift; sourceTree = "<group>"; };
 		C1962C9E253A289100BDAFBD /* RostelecomAuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RostelecomAuto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1962CA1253A289100BDAFBD /* RostelecomAutoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RostelecomAutoApp.swift; sourceTree = "<group>"; };
-		C1962CA3253A289100BDAFBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1962CA3253A289100BDAFBD /* SiriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriView.swift; sourceTree = "<group>"; };
 		C1962CA5253A289200BDAFBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1962CA8253A289200BDAFBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1962CAA253A289200BDAFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1962CC4253A310600BDAFBD /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		C1962CEA253A3C6500BDAFBD /* RostelecomAuto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RostelecomAuto.entitlements; sourceTree = "<group>"; };
+		C19DBC67253A6526006DC200 /* ParkingNearMeIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingNearMeIntentHandler.swift; sourceTree = "<group>"; };
+		C19DBC6C253A6544006DC200 /* ParkingNearHomeIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingNearHomeIntentHandler.swift; sourceTree = "<group>"; };
+		C19DBC9F253B4A63006DC200 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C1B4743C253A479000A0A353 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C1962C9B253A289100BDAFBD /* Frameworks */ = {
+		C105428A253B71A1005B1011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C105428F253B71A1005B1011 /* SwiftUI.framework in Frameworks */,
+				C105428E253B71A1005B1011 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C141C3B4253A5D6B004E3B19 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C141C3BD253A5D6B004E3B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C141C3C1253A5D6B004E3B19 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1962C9B253A289100BDAFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B4743D253A479000A0A353 /* Intents.framework in Frameworks */,
+				C1B4743B253A479000A0A353 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1054290253B71A1005B1011 /* MapWidget */ = {
+			isa = PBXGroup;
+			children = (
+				C1054291253B71A1005B1011 /* MapWidget.swift */,
+				C1054293253B71A1005B1011 /* MapWidget.intentdefinition */,
+				C1054294253B71A3005B1011 /* Assets.xcassets */,
+				C1054296253B71A3005B1011 /* Info.plist */,
+			);
+			path = MapWidget;
+			sourceTree = "<group>";
+		};
+		C10542AE253B81E5005B1011 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C10542A8253B81DC005B1011 /* TabBarView.swift */,
+				C10C8C5E253A64CA00AE0160 /* Siri */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C10C8C5E253A64CA00AE0160 /* Siri */ = {
+			isa = PBXGroup;
+			children = (
+				C1962CA3253A289100BDAFBD /* SiriView.swift */,
+				C141C3A9253A5BDC004E3B19 /* SiriShortcutsViewController.swift */,
+				C141C3AC253A5C6A004E3B19 /* SiriButtonView.swift */,
+				C141C3B0253A5CBD004E3B19 /* SiriShortcutManager.swift */,
+			);
+			path = Siri;
+			sourceTree = "<group>";
+		};
+		C141C3B8253A5D6B004E3B19 /* ParkingRequest */ = {
+			isa = PBXGroup;
+			children = (
+				C141C3B9253A5D6B004E3B19 /* IntentHandler.swift */,
+				C1910FC2253BAA8F003C7063 /* IntentHandlers */,
+				C141C3BB253A5D6B004E3B19 /* Info.plist */,
+			);
+			path = ParkingRequest;
+			sourceTree = "<group>";
+		};
+		C141C3C2253A5D6B004E3B19 /* ParkingRequestUI */ = {
+			isa = PBXGroup;
+			children = (
+				C141C3C3253A5D6B004E3B19 /* IntentViewController.swift */,
+				C141C3C5253A5D6B004E3B19 /* MainInterface.storyboard */,
+				C141C3C8253A5D6B004E3B19 /* Info.plist */,
+			);
+			path = ParkingRequestUI;
+			sourceTree = "<group>";
+		};
+		C1910F8D253BA0B4003C7063 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				C19DBC9F253B4A63006DC200 /* MapView.swift */,
+				C1910FE6253BBB45003C7063 /* MapViewModel.swift */,
+				C1910F78253B9F7B003C7063 /* LocationDelegate.swift */,
+				C1910F87253BA0AD003C7063 /* Pin.swift */,
+				C1910FC9253BADBB003C7063 /* MapRequest.swift */,
+				C1911033253C14E5003C7063 /* IntentMap.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		C1910FC2253BAA8F003C7063 /* IntentHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				C19DBC67253A6526006DC200 /* ParkingNearMeIntentHandler.swift */,
+				C19DBC6C253A6544006DC200 /* ParkingNearHomeIntentHandler.swift */,
+				C1910FC3253BAAA6003C7063 /* ParkingRequestIntentHandler.swift */,
+			);
+			path = IntentHandlers;
+			sourceTree = "<group>";
+		};
+		C1911005253BCA6F003C7063 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C1910FFF253BCA69003C7063 /* Agent.swift */,
+				C191100A253BCAD8003C7063 /* RostelekomAutoApi.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		C1962C95253A289100BDAFBD = {
 			isa = PBXGroup;
 			children = (
+				C19DBC91253B4A4B006DC200 /* Shared */,
 				C1962CA0253A289100BDAFBD /* RostelecomAuto */,
+				C141C3B8253A5D6B004E3B19 /* ParkingRequest */,
+				C141C3C2253A5D6B004E3B19 /* ParkingRequestUI */,
+				C1054290253B71A1005B1011 /* MapWidget */,
+				C1962CC3253A310600BDAFBD /* Frameworks */,
 				C1962C9F253A289100BDAFBD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +281,9 @@
 			isa = PBXGroup;
 			children = (
 				C1962C9E253A289100BDAFBD /* RostelecomAuto.app */,
+				C141C3B7253A5D6B004E3B19 /* ParkingRequest.appex */,
+				C141C3C0253A5D6B004E3B19 /* ParkingRequestUI.appex */,
+				C105428D253B71A1005B1011 /* MapWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,11 +291,13 @@
 		C1962CA0253A289100BDAFBD /* RostelecomAuto */ = {
 			isa = PBXGroup;
 			children = (
+				C1962CEA253A3C6500BDAFBD /* RostelecomAuto.entitlements */,
 				C1962CA1253A289100BDAFBD /* RostelecomAutoApp.swift */,
-				C1962CA3253A289100BDAFBD /* ContentView.swift */,
+				C10542AE253B81E5005B1011 /* Modules */,
 				C1962CA5253A289200BDAFBD /* Assets.xcassets */,
 				C1962CAA253A289200BDAFBD /* Info.plist */,
 				C1962CA7253A289200BDAFBD /* Preview Content */,
+				C1911005253BCA6F003C7063 /* Network */,
 			);
 			path = RostelecomAuto;
 			sourceTree = "<group>";
@@ -69,9 +310,80 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C1962CC3253A310600BDAFBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1B4743C253A479000A0A353 /* Intents.framework */,
+				C1962CC4253A310600BDAFBD /* IntentsUI.framework */,
+				C1054266253B7129005B1011 /* WidgetKit.framework */,
+				C1054268253B7129005B1011 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C19DBC91253B4A4B006DC200 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C141C3D8253A5D9D004E3B19 /* Intents.intentdefinition */,
+				C1910F8D253BA0B4003C7063 /* Map */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C105428C253B71A1005B1011 /* MapWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C105429C253B71A3005B1011 /* Build configuration list for PBXNativeTarget "MapWidgetExtension" */;
+			buildPhases = (
+				C1054289253B71A1005B1011 /* Sources */,
+				C105428A253B71A1005B1011 /* Frameworks */,
+				C105428B253B71A1005B1011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapWidgetExtension;
+			productName = MapWidgetExtension;
+			productReference = C105428D253B71A1005B1011 /* MapWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C141C3B6253A5D6B004E3B19 /* ParkingRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C141C3D2253A5D6B004E3B19 /* Build configuration list for PBXNativeTarget "ParkingRequest" */;
+			buildPhases = (
+				C141C3B3253A5D6B004E3B19 /* Sources */,
+				C141C3B4253A5D6B004E3B19 /* Frameworks */,
+				C141C3B5253A5D6B004E3B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkingRequest;
+			productName = ParkingRequest;
+			productReference = C141C3B7253A5D6B004E3B19 /* ParkingRequest.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C141C3BF253A5D6B004E3B19 /* ParkingRequestUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C141C3CF253A5D6B004E3B19 /* Build configuration list for PBXNativeTarget "ParkingRequestUI" */;
+			buildPhases = (
+				C141C3BC253A5D6B004E3B19 /* Sources */,
+				C141C3BD253A5D6B004E3B19 /* Frameworks */,
+				C141C3BE253A5D6B004E3B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkingRequestUI;
+			productName = ParkingRequestUI;
+			productReference = C141C3C0253A5D6B004E3B19 /* ParkingRequestUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		C1962C9D253A289100BDAFBD /* RostelecomAuto */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1962CAD253A289200BDAFBD /* Build configuration list for PBXNativeTarget "RostelecomAuto" */;
@@ -79,10 +391,14 @@
 				C1962C9A253A289100BDAFBD /* Sources */,
 				C1962C9B253A289100BDAFBD /* Frameworks */,
 				C1962C9C253A289100BDAFBD /* Resources */,
+				C1962CD9253A310600BDAFBD /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C141C3CA253A5D6B004E3B19 /* PBXTargetDependency */,
+				C141C3CD253A5D6B004E3B19 /* PBXTargetDependency */,
+				C105429A253B71A3005B1011 /* PBXTargetDependency */,
 			);
 			name = RostelecomAuto;
 			productName = RostelecomAuto;
@@ -98,6 +414,15 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					C105428C253B71A1005B1011 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					C141C3B6253A5D6B004E3B19 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					C141C3BF253A5D6B004E3B19 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					C1962C9D253A289100BDAFBD = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -117,11 +442,37 @@
 			projectRoot = "";
 			targets = (
 				C1962C9D253A289100BDAFBD /* RostelecomAuto */,
+				C141C3B6253A5D6B004E3B19 /* ParkingRequest */,
+				C141C3BF253A5D6B004E3B19 /* ParkingRequestUI */,
+				C105428C253B71A1005B1011 /* MapWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C105428B253B71A1005B1011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1054295253B71A3005B1011 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C141C3B5253A5D6B004E3B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C141C3BE253A5D6B004E3B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C141C3C7253A5D6B004E3B19 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C1962C9C253A289100BDAFBD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,18 +485,225 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C1054289253B71A1005B1011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1910FB9253BA78A003C7063 /* Pin.swift in Sources */,
+				C1054292253B71A1005B1011 /* MapWidget.swift in Sources */,
+				C1911024253C040D003C7063 /* RostelekomAutoApi.swift in Sources */,
+				C191102E253C041C003C7063 /* Agent.swift in Sources */,
+				C1910FD4253BAE2C003C7063 /* MapRequest.swift in Sources */,
+				C1910FB3253BA787003C7063 /* LocationDelegate.swift in Sources */,
+				C1911042253C15D3003C7063 /* IntentMap.swift in Sources */,
+				C1910FF6253BC51E003C7063 /* MapViewModel.swift in Sources */,
+				C10542A3253B722D005B1011 /* MapView.swift in Sources */,
+				C1054297253B71A3005B1011 /* MapWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C141C3B3253A5D6B004E3B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1910FC4253BAAA6003C7063 /* ParkingRequestIntentHandler.swift in Sources */,
+				C19DBC6D253A6544006DC200 /* ParkingNearHomeIntentHandler.swift in Sources */,
+				C141C3E0253A5E85004E3B19 /* Intents.intentdefinition in Sources */,
+				C141C3BA253A5D6B004E3B19 /* IntentHandler.swift in Sources */,
+				C19DBC68253A6526006DC200 /* ParkingNearMeIntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C141C3BC253A5D6B004E3B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1910FB4253BA78A003C7063 /* Pin.swift in Sources */,
+				C19DBC9B253B4A5B006DC200 /* Intents.intentdefinition in Sources */,
+				C191101F253C0406003C7063 /* RostelekomAutoApi.swift in Sources */,
+				C1911029253C041B003C7063 /* Agent.swift in Sources */,
+				C1910FD9253BAE2C003C7063 /* MapRequest.swift in Sources */,
+				C1910FAE253BA787003C7063 /* LocationDelegate.swift in Sources */,
+				C191103D253C15D1003C7063 /* IntentMap.swift in Sources */,
+				C1910FF1253BC51C003C7063 /* MapViewModel.swift in Sources */,
+				C19DBCA4253B544D006DC200 /* MapView.swift in Sources */,
+				C141C3C4253A5D6B004E3B19 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C1962C9A253A289100BDAFBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1962CA4253A289100BDAFBD /* ContentView.swift in Sources */,
+				C1054257253B5762005B1011 /* MapView.swift in Sources */,
+				C1910F88253BA0AD003C7063 /* Pin.swift in Sources */,
+				C1910FCF253BAE2A003C7063 /* MapRequest.swift in Sources */,
+				C191100B253BCAD8003C7063 /* RostelekomAutoApi.swift in Sources */,
+				C10542A9253B81DC005B1011 /* TabBarView.swift in Sources */,
+				C1910FEC253BC51A003C7063 /* MapViewModel.swift in Sources */,
+				C141C3D9253A5D9D004E3B19 /* Intents.intentdefinition in Sources */,
+				C1911000253BCA69003C7063 /* Agent.swift in Sources */,
+				C1962CA4253A289100BDAFBD /* SiriView.swift in Sources */,
+				C141C3B1253A5CBD004E3B19 /* SiriShortcutManager.swift in Sources */,
 				C1962CA2253A289100BDAFBD /* RostelecomAutoApp.swift in Sources */,
+				C1911034253C14E5003C7063 /* IntentMap.swift in Sources */,
+				C1054298253B71A3005B1011 /* MapWidget.intentdefinition in Sources */,
+				C141C3AD253A5C6A004E3B19 /* SiriButtonView.swift in Sources */,
+				C141C3AA253A5BDC004E3B19 /* SiriShortcutsViewController.swift in Sources */,
+				C1910F82253BA05C003C7063 /* LocationDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C105429A253B71A3005B1011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C105428C253B71A1005B1011 /* MapWidgetExtension */;
+			targetProxy = C1054299253B71A3005B1011 /* PBXContainerItemProxy */;
+		};
+		C141C3CA253A5D6B004E3B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C141C3BF253A5D6B004E3B19 /* ParkingRequestUI */;
+			targetProxy = C141C3C9253A5D6B004E3B19 /* PBXContainerItemProxy */;
+		};
+		C141C3CD253A5D6B004E3B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C141C3B6253A5D6B004E3B19 /* ParkingRequest */;
+			targetProxy = C141C3CC253A5D6B004E3B19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C141C3C5253A5D6B004E3B19 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C141C3C6253A5D6B004E3B19 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		C105429D253B71A3005B1011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9SGQL8822;
+				INFOPLIST_FILE = MapWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmg.RostelecomAuto.MapWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C105429E253B71A3005B1011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9SGQL8822;
+				INFOPLIST_FILE = MapWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmg.RostelecomAuto.MapWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C141C3D0253A5D6B004E3B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9SGQL8822;
+				INFOPLIST_FILE = ParkingRequestUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmg.RostelecomAuto.ParkingRequestUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C141C3D1253A5D6B004E3B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9SGQL8822;
+				INFOPLIST_FILE = ParkingRequestUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmg.RostelecomAuto.ParkingRequestUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C141C3D3253A5D6B004E3B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9SGQL8822;
+				INFOPLIST_FILE = ParkingRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmg.RostelecomAuto.ParkingRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C141C3D4253A5D6B004E3B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9SGQL8822;
+				INFOPLIST_FILE = ParkingRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmg.RostelecomAuto.ParkingRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		C1962CAB253A289200BDAFBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -265,8 +823,10 @@
 		C1962CAE253A289200BDAFBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RostelecomAuto/RostelecomAuto.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"RostelecomAuto/Preview Content\"";
 				DEVELOPMENT_TEAM = N9SGQL8822;
@@ -287,8 +847,10 @@
 		C1962CAF253A289200BDAFBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RostelecomAuto/RostelecomAuto.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"RostelecomAuto/Preview Content\"";
 				DEVELOPMENT_TEAM = N9SGQL8822;
@@ -309,6 +871,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C105429C253B71A3005B1011 /* Build configuration list for PBXNativeTarget "MapWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C105429D253B71A3005B1011 /* Debug */,
+				C105429E253B71A3005B1011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C141C3CF253A5D6B004E3B19 /* Build configuration list for PBXNativeTarget "ParkingRequestUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C141C3D0253A5D6B004E3B19 /* Debug */,
+				C141C3D1253A5D6B004E3B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C141C3D2253A5D6B004E3B19 /* Build configuration list for PBXNativeTarget "ParkingRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C141C3D3253A5D6B004E3B19 /* Debug */,
+				C141C3D4253A5D6B004E3B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C1962C99253A289100BDAFBD /* Build configuration list for PBXProject "RostelecomAuto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -20,6 +20,18 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>РостелекомАвто хочет использовать</string>
+	<key>NSSiriUsageDescription</key>
+	<string>РостелекомАвто хочет использовать вашу геолокацию для поиска парковок рядом с вами</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>РостелекомАвто хочет использовать вашу геолокацию для поиска парковок рядом с вами</string>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>ParkingRequestIntent</string>
+		<string>ParkingRequestNearHomeIntent</string>
+		<string>ParkingRequestNearMeIntent</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -46,5 +58,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
